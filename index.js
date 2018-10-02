@@ -71,6 +71,6 @@ function placeOrder(cardNumber) {
       total=+cart[i].itemPrice
       removeFromCart(cart[i].itemPrice)
     }
-  } return `Your total is ${total}, which will be charged to the card ${cardNumber}`
+  } return `Your total is $${total}, which will be charged to the card ${cardNumber}`
   
 }
